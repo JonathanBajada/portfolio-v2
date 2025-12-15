@@ -11,8 +11,8 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Mathieu Bertin - Full Stack Developer | Web3 & Blockchain Expert',
-    template: '%s | Mathieu Bertin - Full Stack Developer',
+    default: 'Jonathan Bajada - Full Stack Developer',
+    template: '%s | Jonathan Bajada - Full Stack Developer',
   },
   description:
     'Full Stack Developer with 10+ years of experience specializing in web3 and blockchain applications. Expert in React, Node.js, TypeScript, and blockchain technologies. Available for consulting and development projects.',
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
     'Balthazar DAO',
     'xx network',
   ],
-  authors: [{ name: 'Mathieu Bertin', url: 'https://github.com/burtonium' }],
-  creator: 'Mathieu Bertin',
-  publisher: 'Mathieu Bertin',
+  authors: [{ name: 'Jonathan Bajada', url: 'https://github.com/JonathanBajada' }],
+  creator: 'Jonathan Bajada',
+  publisher: 'Jonathan Bajada',
   formatDetection: {
     email: false,
     address: false,

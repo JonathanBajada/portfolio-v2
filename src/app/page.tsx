@@ -198,14 +198,13 @@ export default function Home() {
           <div className="absolute top-0 z-10 h-full w-full backdrop-brightness-50" />
           <div className="relative z-10 h-full w-full p-5 md:p-12 lg:p-32">
             <div className="container mx-auto max-w-6xl space-y-5">
-              <h1 className="text-4xl leading-none md:text-5xl xl:text-6xl">Mathieu Bertin</h1>
+              <h1 className="text-4xl leading-none md:text-5xl xl:text-6xl">Jonathan Bajada</h1>
               <div>
                 <h2 className="text-primary-400 mb-8 text-4xl leading-none md:text-5xl xl:text-6xl">
                   Full Stack Developer
                 </h2>
                 <p className="font-title text-lg leading-6 md:text-xl lg:text-2xl">
-                  with 10+ years of development experience and exactly 0 professional design
-                  experience.
+                  with 4+ years of development experience
                 </p>
               </div>
               <ol className="mt-5 space-y-2 lg:flex lg:space-y-0 lg:space-x-5 lg:text-lg">
@@ -397,10 +396,10 @@ export default function Home() {
           <div className="frosted-glass-dark space-y-4 p-5">
             <div>
               <h3 className="mb-2 text-2xl leading-tight md:text-3xl lg:text-4xl">
-                Senior Full Stack Web3 Developer
+                Full Stack Developer
               </h3>
               <p>
-                <span className="font-bold text-white">APACX · Remote</span>&nbsp;
+                <span className="font-bold text-white">Loadpipe · Remote</span>&nbsp;
                 <span className="mb-4 text-gray-300">[June 2025 – Current]</span>
               </p>
             </div>
@@ -418,9 +417,6 @@ export default function Home() {
                     unoptimized
                   />
                   <span>Typescript</span>
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <HardhatIcon />
                 </li>
                 <li className="m-2 flex items-center space-x-1">
                   <NextjsIcon />
@@ -444,13 +440,6 @@ export default function Home() {
                 </li>
                 <li className="m-2 flex items-center space-x-1">
                   <AwsIcon />
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <VercelIcon />
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <SolidityIcon />
-                  <span>Solidity</span>
                 </li>
               </ol>
             </div>
