@@ -623,7 +623,7 @@ export default function Home() {
           <div className="frosted-glass-dark space-y-4 p-5">
             <div>
               <h3 className="mb-1 text-2xl leading-tight md:text-3xl lg:text-4xl">
-                Web DevelopmentMarketing Operations
+                Web Development & Marketing Operations
               </h3>
               <p>
                 <span className="font-bold text-white">eBay · Full-time</span>
