@@ -490,17 +490,24 @@ export default function Home() {
           <div className="frosted-glass-dark space-y-4 p-5">
             <div>
               <h3 className="mb-2 text-2xl leading-tight md:text-3xl lg:text-4xl">
-                Senior Full Stack React/Web3 Developer
+                Full Stack Developer
               </h3>
               <p>
-                <span className="font-bold text-white">Balthazar DAO · Full-time</span>&nbsp;
-                <span className="mb-4 text-gray-300">[May 2024 - Present]</span>
+                <span className="font-bold text-white">Apexacore · Full-time</span>&nbsp;
+                <span className="mb-4 text-gray-300">[September 2020 - May 2021]</span>
               </p>
             </div>
 
             <div>
               <h4 className="mb-0 text-lg md:text-xl">Tech utilized:</h4>
               <ol className="mt-0 flex flex-wrap">
+                <li className="m-2 flex items-center space-x-1">
+                  <span>SQLite</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <ReactIcon />
+                  <span>React Native</span>
+                </li>
                 <li className="m-2 flex items-center gap-x-1">
                   <Image
                     className="inline"
@@ -510,90 +517,10 @@ export default function Home() {
                     alt="TypeScript logo"
                     unoptimized
                   />
-                  <span>Typescript</span>
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <HardhatIcon />
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <svg className="inline" viewBox="0 0 180 180" width="18">
-                    <mask
-                      height="180"
-                      id=":r8:mask0_408_134"
-                      maskUnits="userSpaceOnUse"
-                      width="180"
-                      x="0"
-                      y="0"
-                      style={{ maskType: 'alpha' }}
-                    >
-                      <circle cx="90" cy="90" fill="black" r="90"></circle>
-                    </mask>
-                    <g mask="url(#:r8:mask0_408_134)">
-                      <circle cx="90" cy="90" data-circle="true" fill="black" r="90"></circle>
-                      <path
-                        d="M149.508 157.52L69.142 54H54V125.97H66.1136V69.3836L139.999 164.845C143.333 162.614 146.509 160.165 149.508 157.52Z"
-                        fill="url(#:r8:paint0_linear_408_134)"
-                      ></path>
-                      <rect
-                        fill="url(#:r8:paint1_linear_408_134)"
-                        height="72"
-                        width="12"
-                        x="115"
-                        y="54"
-                      ></rect>
-                    </g>
-                    <defs>
-                      <linearGradient
-                        gradientUnits="userSpaceOnUse"
-                        id=":r8:paint0_linear_408_134"
-                        x1="109"
-                        x2="144.5"
-                        y1="116.5"
-                        y2="160.5"
-                      >
-                        <stop stopColor="white"></stop>
-                        <stop offset="1" stopColor="white" stopOpacity="0"></stop>
-                      </linearGradient>
-                      <linearGradient
-                        gradientUnits="userSpaceOnUse"
-                        id=":r8:paint1_linear_408_134"
-                        x1="121"
-                        x2="120.799"
-                        y1="54"
-                        y2="106.875"
-                      >
-                        <stop stopColor="white"></stop>
-                        <stop offset="1" stopColor="white" stopOpacity="0"></stop>
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                  <span>Nextjs</span>
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <a href="https://www.postgresql.org/">
-                    <Image
-                      className="inline"
-                      width={22}
-                      height={22}
-                      src="https://www.postgresql.org/media/img/about/press/elephant.png"
-                      alt="PostgreSQL logo"
-                      unoptimized
-                    />
-                  </a>
-                  <span>Postgresql</span>
+                  <span>TypeScript</span>
                 </li>
                 <li className="m-2 flex items-center space-x-1">
                   <TailwindcssIcon />
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <AwsIcon />
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <VercelIcon />
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <SolidityIcon />
-                  <span>Solidity</span>
                 </li>
               </ol>
             </div>
@@ -601,24 +528,31 @@ export default function Home() {
               <h4 className="mb-0 text-lg md:text-xl">Responsibilities</h4>
               <ol className="list-disc pt-2 pl-5">
                 <li>
-                  Established immediately as a senior developer, acting as the main PR reviewer
-                  ensuring code quality for the entire organization.
+                  Led the end-to-end development of the NeuroGym FIT app, a client management tool
+                  for physiotherapists. Architected the solution in React Native (TypeScript) with
+                  SQLite, translating UI/UX designs into a performant mobile application that
+                  streamlined practitioner workflows.
                 </li>
                 <li>
-                  Wrote the frontend for our rewards platform from scratch and chose a Next.js,
-                  Tailwind, shadcn, wagmi, tanstack/query tech stack.
+                  Owned the front-end architecture, translating AdobeXD designs into reusable React
+                  Native components and implementing a custom SVG-based navigation system.
                 </li>
                 <li>
-                  Wrote, reviewed, and deployed solidity smart contracts for staking, governance,
-                  and vesting functionalities.
+                  Engineered core application features including a secure authentication flow,
+                  dynamic data charts for treatment plans, and an interactive calendar for
+                  scheduling.
                 </li>
                 <li>
-                  Integrated these contracts with the frontend using viem, wagmi, and dynamic.xyz.
+                  Built advanced data tools, developing a feature to query the SQLite database and
+                  export client reports to Excel, enhancing data portability.
                 </li>
                 <li>
-                  Identified bottlenecks that could be solved with advanced blockchain indexing
-                  tools such as TheGraph, Dune.com, Goldsky, and Subsquid, eventually deciding on
-                  the latter.
+                  Designed intuitive user interfaces with a searchable client list, medical
+                  glossary, and a faceted filter (accordion) for exercise libraries.
+                </li>
+                <li>
+                  Enhanced user experience by incorporating smooth animations for transitions and
+                  feedback, elevating overall app polish.
                 </li>
               </ol>
             </div>
