@@ -42,6 +42,9 @@ import tokenSaleScreen2 from './assets/token-sale-screen-2.png';
 import tokenDashboardScreen1 from './assets/token-dashboard-screen-1.png';
 import tokenDashboardScreen2 from './assets/token-dashboard-screen-2.png';
 import tokenDashboardScreen3 from './assets/token-dashboard-screen-3.png';
+import ngNative1 from './assets/ng-react-native-1.jpg';
+import ngNative2 from './assets/ng-react-native-2.jpg';
+import ngNative3 from './assets/ng-react-native-3.jpg';
 
 import { ExternalLink } from 'lucide-react';
 import { StaticImageData } from 'next/image';
@@ -58,15 +61,15 @@ type Project = {
 
 const projects: Project[] = [
   {
-    name: 'token dashboards',
+    name: 'web3 ecommerse store',
     repo: 'https://github.com/Burtonium/token-dashboard',
     url: 'https://staging.vip.realworldgaming.io',
     images: [tokenDashboardScreen1, tokenDashboardScreen2, tokenDashboardScreen3],
   },
   {
-    name: 'token sale portals',
+    name: 'physiotherapist mobile app',
     repo: 'https://github.com/Burtonium/token-sale-portal',
-    images: [tokenSaleScreen1, tokenSaleScreen2],
+    images: [tokenSaleScreen1, tokenSaleScreen1],
     url: 'https://sale.getrealtoken.io/',
   },
   {
@@ -620,48 +623,20 @@ export default function Home() {
           <div className="frosted-glass-dark space-y-4 p-5">
             <div>
               <h3 className="mb-1 text-2xl leading-tight md:text-3xl lg:text-4xl">
-                Full Stack Web Developer
+                Web DevelopmentMarketing Operations
               </h3>
               <p>
-                <span className="font-bold text-white">xx network · Full-time</span>
+                <span className="font-bold text-white">eBay · Full-time</span>
                 &nbsp;
                 <span className="mb-4 text-gray-300">[Apr 2019 - Aug 2023]</span>
               </p>
-              <p>The first and only quantum-resistant and privacy-focused blockchain ecosystem.</p>
-            </div>
-            <div>
-              <h4 className="text-lg md:text-xl">Urls</h4>
-              <ul>
-                <li>
-                  Website: <a href="https://xx.network">https://xx.network</a>
-                </li>
-              </ul>
             </div>
             <div>
               <h4 className="mb-0 text-lg md:text-xl">Tech utilized:</h4>
               <ol className="mt-0 flex flex-wrap">
                 <li className="m-2 flex items-center space-x-1">
-                  <Image
-                    className="inline"
-                    width={22}
-                    height={22}
-                    src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
-                    alt="TypeScript logo"
-                    unoptimized
-                  />
-                  <span>Typescript</span>
-                </li>
-                <li className="m-2 flex items-center space-x-1">
                   <JsIcon />
                   <span>Javascript</span>
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <NextjsIcon />
-                  <span>Nextjs</span>
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <NuxtjsIcon />
-                  <span>Nuxtjs</span>
                 </li>
                 <li className="m-2 flex items-center space-x-1">
                   <a href="https://www.postgresql.org/">
@@ -674,42 +649,13 @@ export default function Home() {
                       unoptimized
                     />
                   </a>
-                  <span>Postgresql</span>
+                  <span>SQL</span>
                 </li>
                 <li className="m-2 flex items-center space-x-1">
-                  <TailwindcssIcon />
+                  <span>HTML</span>
                 </li>
                 <li className="m-2 flex items-center space-x-1">
-                  <ContentfulLogo />
-                  <span>Contentful</span>
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <AwsIcon />
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <ExpressIcon />
-                </li>
-                <li className="m-2 flex items-center space-x-1">
-                  <svg
-                    className="inline w-5"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 100 100"
-                    fill="#e10098"
-                  >
-                    <title>GraphQL Logo</title>
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M50 6.90308L87.323 28.4515V71.5484L50 93.0968L12.677 71.5484V28.4515L50 6.90308ZM16.8647 30.8693V62.5251L44.2795 15.0414L16.8647 30.8693ZM50 13.5086L18.3975 68.2457H81.6025L50 13.5086ZM77.4148 72.4334H22.5852L50 88.2613L77.4148 72.4334ZM83.1353 62.5251L55.7205 15.0414L83.1353 30.8693V62.5251Z"
-                    />
-                    <circle cx="50" cy="9.3209" r="8.82" />
-                    <circle cx="85.2292" cy="29.6605" r="8.82" />
-                    <circle cx="85.2292" cy="70.3396" r="8.82" />
-                    <circle cx="50" cy="90.6791" r="8.82" />
-                    <circle cx="14.7659" cy="70.3396" r="8.82" />
-                    <circle cx="14.7659" cy="29.6605" r="8.82" />
-                  </svg>
-                  <span>GraphQL</span>
+                  <span>CSS</span>
                 </li>
               </ol>
             </div>
@@ -717,30 +663,37 @@ export default function Home() {
               <h4 className="text-2xl">Responsibilities</h4>
               <ol className="list-disc pt-2 pl-5">
                 <li>
-                  Designed a website integrated with Contentful CMS in Nuxt.js (Vue.js), enabling
-                  the marketing team to maintain consistent branding while posting promotional
-                  content.
+                  Directed end-to-end onsite marketing operations for key eBay verticals (Motors,
+                  Refurbished, Home & Retail Moments), overseeing campaign strategy, trafficking,
+                  data analysis, audience segmentation, and cross-channel email support.
                 </li>
                 <li>
-                  Engineered a dashboard using Nuxt.js (Vue.js), Express, and PostgreSQL to display
-                  performance metrics based on a database of approximately 200 million rounds.
+                  Conducted weekly CTR performance analysis for campaigns and creatives, delivering
+                  data-driven insights and recommendations to optimize engagement.
                 </li>
                 <li>
-                  Provided 150+ node operators with essential support and comprehensive performance
-                  insights:&nbsp;
-                  <a href="https://dashboard.xx.network/">https://dashboard.xx.network/</a>
+                  Developed dynamic, responsive email templates using HTML, CSS, and JavaScript that
+                  drove engagement across marketing campaigns.
                 </li>
                 <li>
-                  Developed software allowing 300+ end-users to interact with the product, enabling
-                  them to utilize the company&apos;s financial services:&nbsp;
-                  <a href="https://wallet.xx.network/">https://wallet.xx.network/</a>
+                  Built targeted customer segments with SQL to increase campaign precision and
+                  conversion rates.
                 </li>
                 <li>
-                  Created a messenger application using Typescript/React and in-house library XXDK,
-                  expanding access to private messaging and group chats for 500+ users:{' '}
-                  <a href="https://github.com/xxfoundation/elixxir-speakeasy-web/tree/dev">
-                    https://github.com/xxfoundation/elixxir-speakeasy-web/tree/dev
-                  </a>
+                  Led end-to-end QA testing for all email and onsite ad creatives, ensuring 100%
+                  functionality and brand compliance.
+                </li>
+                <li>
+                  Redesigned and deployed high-visibility landing page ads on eBay.com, optimizing
+                  layouts for improved CTR.
+                </li>
+                <li>
+                  Orchestrated the scheduling and deployment of multi-channel marketing campaigns
+                  across key eBay verticals.
+                </li>
+                <li>
+                  Collaborated with the US Marketing Ops team to streamline workflows and enhance
+                  existing marketing technologies.
                 </li>
               </ol>
             </div>
