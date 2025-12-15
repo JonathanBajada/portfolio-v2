@@ -565,7 +565,7 @@ export default function Home() {
               <p>
                 <span className="font-bold text-white">eBay · Full-time</span>
                 &nbsp;
-                <span className="mb-4 text-gray-300">[Apr 2019 - Aug 2023]</span>
+                <span className="mb-4 text-gray-300">[Aug 2021 - Aug 2022 · 1 yr 1 mo]</span>
               </p>
             </div>
             <div>
