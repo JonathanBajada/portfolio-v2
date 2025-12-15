@@ -444,6 +444,9 @@ export default function Home() {
                 <li className="m-2 flex items-center space-x-1">
                   <AwsIcon />
                 </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <span>MedusaJS</span>
+                </li>
               </ol>
             </div>
             <div>
