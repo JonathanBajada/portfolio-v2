@@ -631,7 +631,7 @@ export default function Home() {
               <p>
                 <span className="font-bold text-white">eBay · Full-time</span>
                 &nbsp;
-                <span className="mb-4 text-gray-300">[Aug 2021 - Aug 2022 · 1 yr 1 mo]</span>
+                <span className="mb-4 text-gray-300">[Apr 2019 - Aug 2023]</span>
               </p>
             </div>
             <div>
@@ -659,6 +659,10 @@ export default function Home() {
                 </li>
                 <li className="m-2 flex items-center space-x-1">
                   <span>CSS</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <ReactIcon />
+                  <span>React</span>
                 </li>
               </ol>
             </div>
