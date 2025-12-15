@@ -304,13 +304,13 @@ export default function Home() {
         className="main-section flex flex-col items-center justify-center space-y-10 px-4 py-16 text-center md:px-8 md:py-20 lg:px-12 lg:py-24"
       >
         <div className="flex flex-col gap-1 md:gap-2">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl">I make</h2>
-          <h2 className="text-primary-400 text-5xl md:text-6xl lg:text-7xl">web applications</h2>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl">entirely from scratch.</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl">I craft scalable</h2>
+          <h2 className="text-primary-400 text-5xl md:text-6xl lg:text-7xl">software</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl">from the ground up</h2>
         </div>
         <p className="text-base md:text-lg lg:text-xl">
-          Meaning I can provide value at <strong>every level</strong> of making a web application
-          for your business.
+          Meaning I can provide value at <strong>every level</strong> of developing robust and
+          efficient applications for your business.
         </p>
         <ol className="grid max-w-6xl grid-cols-1 gap-5 py-5 text-left lg:grid-cols-2">
           <li className="frosted-glass-dark flex items-center space-x-4 rounded-xl p-5">
@@ -319,12 +319,12 @@ export default function Home() {
             </div>
             <p>Database architecture and implementation.</p>
           </li>
-          <li className="frosted-glass-dark flex items-center space-x-4 rounded-xl p-5">
+          {/* <li className="frosted-glass-dark flex items-center space-x-4 rounded-xl p-5">
             <div className="flex h-16 w-16 items-center justify-center rounded-lg">
               <SmartContractIcon />
             </div>
             <p>Smart Contract auditing, development and deployment.</p>
-          </li>
+          </li> */}
           <li className="frosted-glass-dark flex items-center space-x-4 rounded-xl p-5">
             <div className="flex h-16 w-16 items-center justify-center rounded-lg">
               <BackendSystemsIcon />
@@ -447,22 +447,36 @@ export default function Home() {
               <h4 className="text-2xl">Key Achievements</h4>
               <ol className="list-disc pt-2 pl-5">
                 <li>
-                  Integrated Xave&apos;s Balancer V2 based FX Pools to the platform allowing our
-                  users to swap from PHT to USDT/USDC/XSGD with minimal slippage.
+                  Led frontend architecture and user experience implementation for a crypto
+                  marketplace prototype using Next.js (App Router), MedusaJS, and modern React
+                  ecosystem (TanStack Query, Zustand, ShadCN).
                 </li>
                 <li>
-                  Combined all of the repos to a single mono-repo with Turbo which enabled to share
-                  a lot of components and configuration, cutting down on a lot of duplication and
-                  dev time on maintenance.
+                  Partnered directly with UX/UI team to translate business requirements into
+                  technical specifications, conducted design‑feasibility reviews, and provided
+                  implementation feedback that shaped final user flows.
                 </li>
                 <li>
-                  Opted for Dune.com instead of Subgraph which led to finishing our analytics and
-                  transparency page in 2 weeks when the latter was already on track to taking a
-                  month+.
+                  Architected performant storefront with Next.js SSR/SSG, implementing core user
+                  journeys (browse → cart → checkout) with responsive layouts using Tailwind CSS and
+                  component libraries.
                 </li>
                 <li>
-                  Immediately pushed for linting and formatting with prettier before commit with
-                  Husky leading to cleaner more maintainable code.
+                  Engineered Web3 integration layer using RainbowKit/Wagmi v2, building wallet
+                  authentication flows and crypto payment interfaces for stakeholder demonstrations.
+                </li>
+                <li>
+                  Built full‑stack features connecting Next.js frontend to Medusa/PostgreSQL backend
+                  through API routes and service layers, implementing product, order, and user
+                  management systems.
+                </li>
+                <li>
+                  Developed comprehensive admin dashboard with ShadCN, enabling vendor management
+                  and order processing workflows during product validation phase.
+                </li>
+                <li>
+                  Established development standards: implemented Cypress E2E testing, CI/CD
+                  workflows, and code review processes for the full Next.js application stack.
                 </li>
               </ol>
             </div>
