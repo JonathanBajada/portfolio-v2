@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     'Full Stack Developer with 10+ years of experience specializing in web3 and blockchain applications. Expert in React, Node.js, TypeScript, and blockchain technologies. Available for consulting and development projects.',
   keywords: [
-    'Mathieu Bertin',
+    'jonathan bajada',
     'Full Stack Developer',
     'Web3 Developer',
     'Blockchain Developer',
@@ -49,8 +49,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://portfolio.nephelo.io',
-    siteName: 'Mathieu Bertin - Full Stack Developer',
-    title: 'Mathieu Bertin - Full Stack Developer | Web3 & Blockchain Expert',
+    siteName: 'jonathan bajada - Full Stack Developer',
+    title: 'jonathan bajada - Full Stack Developer | Web3 & Blockchain Expert',
     description:
       'Full Stack Developer with 10+ years of experience specializing in web3 and blockchain applications. Expert in React, Node.js, TypeScript, and blockchain technologies.',
     // images: [
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     //     url: '/profile.jpg',
     //     width: 1200,
     //     height: 630,
-    //     alt: 'Mathieu Bertin - Full Stack Developer',
+    //     alt: 'jonathan bajada - Full Stack Developer',
     //     type: 'image/jpeg'
     //   }
     // ]
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@matt_burton',
     creator: '@matt_burton',
-    title: 'Mathieu Bertin - Full Stack Developer | Web3 & Blockchain Expert',
+    title: 'jonathan bajada - Full Stack Developer | Web3 & Blockchain Expert',
     description:
       'Full Stack Developer with 10+ years of experience specializing in web3 and blockchain applications. Expert in React, Node.js, TypeScript, and blockchain technologies.',
     // images: ['/profile.jpg']
@@ -115,7 +115,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Person',
-              name: 'Mathieu Bertin',
+              name: 'jonathan bajada',
               jobTitle: 'Full Stack Developer',
               description:
                 'Full Stack Developer with 10+ years of experience specializing in web3 and blockchain applications',
