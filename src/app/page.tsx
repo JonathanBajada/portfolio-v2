@@ -304,13 +304,13 @@ export default function Home() {
         className="main-section flex flex-col items-center justify-center space-y-10 px-4 py-16 text-center md:px-8 md:py-20 lg:px-12 lg:py-24"
       >
         <div className="flex flex-col gap-1 md:gap-2">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl">I make web3/blockchain</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl">I make</h2>
           <h2 className="text-primary-400 text-5xl md:text-6xl lg:text-7xl">web applications</h2>
           <h2 className="text-3xl md:text-4xl lg:text-5xl">entirely from scratch.</h2>
         </div>
         <p className="text-base md:text-lg lg:text-xl">
           Meaning I can provide value at <strong>every level</strong> of making a web application
-          for your web3/blockchain business.
+          for your business.
         </p>
         <ol className="grid max-w-6xl grid-cols-1 gap-5 py-5 text-left lg:grid-cols-2">
           <li className="frosted-glass-dark flex items-center space-x-4 rounded-xl p-5">
