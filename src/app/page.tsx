@@ -97,7 +97,7 @@ const projects: Project[] = [
     ],
   },
   {
-    name: 'Food tracking & fasting app',
+    name: 'food tracking & fasting app',
     repo: 'https://github.com/Burtonium/token-sale-portal',
     images: [sumPlus1, sumPlus3, sumPlus4, sumPlus5, sumPlus6, sumPlus7, sumPlus8],
     url: 'https://sale.getrealtoken.io/',
