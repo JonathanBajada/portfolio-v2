@@ -494,7 +494,7 @@ export default function Home() {
               </h3>
               <p>
                 <span className="font-bold text-white">Apexacore · Full-time</span>&nbsp;
-                <span className="mb-4 text-gray-300">[September 2020 - May 2021]</span>
+                <span className="mb-4 text-gray-300">[Sep 2020 - May 2021]</span>
               </p>
             </div>
 
@@ -502,11 +502,18 @@ export default function Home() {
               <h4 className="mb-0 text-lg md:text-xl">Tech utilized:</h4>
               <ol className="mt-0 flex flex-wrap">
                 <li className="m-2 flex items-center space-x-1">
-                  <span>SQLite</span>
+                  <ReactIcon />
+                  <span>React</span>
                 </li>
                 <li className="m-2 flex items-center space-x-1">
                   <ReactIcon />
                   <span>React Native</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <span>SQLite</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <span>Node.js</span>
                 </li>
                 <li className="m-2 flex items-center gap-x-1">
                   <Image
@@ -565,7 +572,7 @@ export default function Home() {
               <p>
                 <span className="font-bold text-white">eBay · Full-time</span>
                 &nbsp;
-                <span className="mb-4 text-gray-300">[Aug 2021 - Aug 2022 · 1 yr 1 mo]</span>
+                <span className="mb-4 text-gray-300">[Aug 2021 - Aug 2022]</span>
               </p>
             </div>
             <div>
