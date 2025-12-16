@@ -19,3 +19,4 @@ export { VercelIcon } from './VercelIcon';
 export { HardhatIcon } from './HardhatIcon';
 export { GraphQLIcon } from './GraphQLIcon';
 export { ExpressIcon } from './ExpressIcon';
+export { TanStackIcon } from './TanStackIcon';

@@ -25,6 +25,7 @@ import {
   AwsIcon,
   VercelIcon,
   GraphQLIcon as _GraphQLIcon,
+  TanStackIcon,
 } from './components/icons';
 import pointsAppScreen1 from './assets/points-app-screen-1.png';
 import pointsAppScreen2 from './assets/points-app-screen-2.png';
@@ -204,7 +205,7 @@ export default function Home() {
               <h1 className="text-4xl leading-none md:text-5xl xl:text-6xl">Jonathan Bajada</h1>
               <div>
                 <h2 className="text-primary-400 mb-8 text-4xl leading-none md:text-5xl xl:text-6xl">
-                  Full Stack Developer
+                  Full Stack Developer | Security-Focused
                 </h2>
                 <p className="font-title text-lg leading-6 md:text-xl lg:text-2xl">
                   with 4+ years of development experience
@@ -260,12 +261,12 @@ export default function Home() {
                 </h4>
                 <ol className="flex max-w-4xl flex-wrap items-center gap-3">
                   <li className="flex items-center space-x-1">
-                    <TypeScriptIcon />
-                    <span>Typescript</span>
+                    <ReactIcon />
+                    <span>React</span>
                   </li>
-                  <li className="flex items-center">
-                    <SolidityIcon />
-                    <span>Solidity</span>
+                  <li className="flex items-center space-x-1">
+                    <ReactIcon />
+                    <span>React Native</span>
                   </li>
                   <li>
                     <a rel="noopener" href="https://www.postgresql.org/">
@@ -273,28 +274,21 @@ export default function Home() {
                     </a>
                     <span>Postgresql</span>
                   </li>
-
                   <li className="flex items-center space-x-1">
                     <NextjsIcon />
                     <span>Nextjs</span>
                   </li>
-
                   <li className="flex items-center space-x-1">
-                    <ReactIcon />
-                    <span>React</span>
+                    <TypeScriptIcon />
+                    <span>Typescript</span>
                   </li>
-                  <li className="flex items-center space-x-1">
-                    <NuxtjsIcon />
-                    <span>Nuxtjs</span>
-                  </li>
-
-                  <li className="flex items-center space-x-1">
-                    <VuejsIcon />
-                    <span>Vuejs</span>
-                  </li>
-
                   <li className="flex items-center space-x-1">
                     <TailwindcssIcon />
+                    <span>Tailwindcss</span>
+                  </li>
+                  <li className="flex items-center space-x-1">
+                    <TanStackIcon />
+                    <span>TanStack</span>
                   </li>
                 </ol>
               </div>
