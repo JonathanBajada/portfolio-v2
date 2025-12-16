@@ -289,6 +289,13 @@ export default function Home() {
                     <TanStackIcon />
                     <span>TanStack</span>
                   </li>
+                  <li className="flex items-center space-x-1">
+                    <SolidityIcon />
+                    <span>Solidity</span>
+                  </li>
+                  <li className="flex items-center space-x-1">
+                    <span>Node.js</span>
+                  </li>
                 </ol>
               </div>
             </div>
