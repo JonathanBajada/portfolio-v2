@@ -284,7 +284,6 @@ export default function Home() {
                   </li>
                   <li className="flex items-center space-x-1">
                     <TailwindcssIcon />
-                    <span>Tailwindcss</span>
                   </li>
                   <li className="flex items-center space-x-1">
                     <TanStackIcon />
