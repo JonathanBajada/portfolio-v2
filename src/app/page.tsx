@@ -46,6 +46,26 @@ import tokenDashboardScreen3 from './assets/token-dashboard-screen-3.png';
 import ngNative1 from './assets/ng-react-native-1.jpg';
 import ngNative2 from './assets/ng-react-native-2.jpg';
 import ngNative3 from './assets/ng-react-native-3.jpg';
+import hamzaWeb1 from './assets/hamza-web3-store-screen-1.png';
+import hamzaWeb2 from './assets/hamza-web3-store-screen-2.png';
+import hamzaWeb3 from './assets/hamza-web3-store-screen-3.png';
+import vendorDashboard1 from './assets/vendor-dashboard-screen-1.png';
+import vendorDashboard2 from './assets/vendor-dashboard-screen-2.png';
+import vendorDashboard3 from './assets/vendor-dashboard-screen-3.png';
+import vendorDashboard4 from './assets/vendor-dashboard-screen-4.png';
+import vendorDashboard5 from './assets/vendor-dashboard-screen-5.png';
+import sumPlusPlusScreen1 from './assets/sum-plus-screen-1.png';
+import sumPlusPlusScreen2 from './assets/sum-plus-screen-2.png';
+import sumPlusPlusScreen3 from './assets/sum-plus-screen-3.png';
+import sumPlusPlusScreen4 from './assets/sum-plus-screen-4.png';
+import sumPlus1 from './assets/sum-plus-1.png';
+import sumPlus2 from './assets/sum-plus-2.png';
+import sumPlus3 from './assets/sum-plus-3.png';
+import sumPlus4 from './assets/sum-plus-4.png';
+import sumPlus5 from './assets/sum-plus-5.png';
+import sumPlus6 from './assets/sum-plus-6.png';
+import sumPlus7 from './assets/sum-plus-7.png';
+import sumPlus8 from './assets/sum-plus-8.png';
 
 import { ExternalLink } from 'lucide-react';
 import { StaticImageData } from 'next/image';
@@ -65,41 +85,50 @@ const projects: Project[] = [
     name: 'web3 ecommerse store',
     repo: 'https://github.com/Burtonium/token-dashboard',
     url: 'https://staging.vip.realworldgaming.io',
-    images: [tokenDashboardScreen1, tokenDashboardScreen2, tokenDashboardScreen3],
+    images: [
+      hamzaWeb1,
+      hamzaWeb2,
+      hamzaWeb3,
+      vendorDashboard1,
+      vendorDashboard2,
+      vendorDashboard3,
+      vendorDashboard4,
+      vendorDashboard5,
+    ],
   },
   {
-    name: 'physiotherapist mobile app',
+    name: 'Food tracking & fasting app',
     repo: 'https://github.com/Burtonium/token-sale-portal',
-    images: [tokenSaleScreen1, tokenSaleScreen1],
+    images: [sumPlus1, sumPlus3, sumPlus4, sumPlus5, sumPlus6, sumPlus7, sumPlus8],
     url: 'https://sale.getrealtoken.io/',
   },
   {
-    name: 'points applications',
+    name: 'physiotherapist cms app',
     url: 'https://quest.talisman.xyz/',
-    images: [pointsAppScreen1, pointsAppScreen2],
+    images: [ngNative1, ngNative2, ngNative3],
   },
-  {
-    name: 'web wallets',
-    repo: 'https://github.com/xxfoundation/wallet.xx.network',
-    url: 'https://wallet.xx.network/',
-    images: [webWalletScreen1, webWalletScreen2, webWalletScreen3],
-  },
-  {
-    name: 'web messengers',
-    repo: 'https://github.com/xxfoundation/haven',
-    url: 'https://haven.xx.network/',
-    images: [webMessengerScreen1, webMessengerScreen2, webMessengerScreen3],
-  },
-  {
-    name: 'node operator dashboards',
-    repo: 'https://github.com/Burtonium/node-operator-dashboard',
-    url: 'https://dashboard.xx.network/',
-    images: [
-      nodeOperatorDashboardScreen1,
-      nodeOperatorDashboardScreen2,
-      nodeOperatorDashboardScreen3,
-    ],
-  },
+  // {
+  //   name: 'web wallets',
+  //   repo: 'https://github.com/xxfoundation/wallet.xx.network',
+  //   url: 'https://wallet.xx.network/',
+  //   images: [webWalletScreen1, webWalletScreen2, webWalletScreen3],
+  // },
+  // {
+  //   name: 'web messengers',
+  //   repo: 'https://github.com/xxfoundation/haven',
+  //   url: 'https://haven.xx.network/',
+  //   images: [webMessengerScreen1, webMessengerScreen2, webMessengerScreen3],
+  // },
+  // {
+  //   name: 'node operator dashboards',
+  //   repo: 'https://github.com/Burtonium/node-operator-dashboard',
+  //   url: 'https://dashboard.xx.network/',
+  //   images: [
+  //     nodeOperatorDashboardScreen1,
+  //     nodeOperatorDashboardScreen2,
+  //     nodeOperatorDashboardScreen3,
+  //   ],
+  // },
 ] as const;
 
 const _projectNames = projects.map(project => project.name);
@@ -357,7 +386,7 @@ export default function Home() {
             onIndexChange={index => {
               dispatch({ type: 'setSelectedImageIndex', index });
             }}
-            className="w-full max-w-5xl"
+            className="w-full max-w-5xl [&_img]:mx-auto [&_img]:max-h-[75vh] [&_img]:w-auto [&_img]:object-contain"
           />
           <div className="absolute right-6 bottom-12 flex gap-2">
             {selectedProject?.repo && (
