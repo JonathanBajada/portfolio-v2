@@ -444,7 +444,7 @@ export default function Home() {
               </h3>
               <p>
                 <span className="font-bold text-white">Loadpipe · Remote</span>&nbsp;
-                <span className="mb-4 text-gray-300">[June 2025 – Current]</span>
+                <span className="mb-4 text-gray-300">[Apr 2024 - Dec 2025]</span>
               </p>
             </div>
 
