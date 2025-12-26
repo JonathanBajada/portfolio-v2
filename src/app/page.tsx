@@ -705,17 +705,122 @@ export default function Home() {
               </h3>
               <p>
                 <span className="font-bold text-white">Pixel Koi · Remote</span>&nbsp;
-                <span className="mb-4 text-gray-300">[Date Range]</span>
+                <span className="mb-4 text-gray-300">[Aug 2022 - 2024 · 1 yr 6 mos]</span>
               </p>
             </div>
 
             <div>
               <h4 className="mb-0 text-lg md:text-xl">Tech utilized:</h4>
-              <ol className="mt-0 flex flex-wrap">{/* Add tech stack items here */}</ol>
+              <ol className="mt-0 flex flex-wrap">
+                <li className="m-2 flex items-center space-x-1">
+                  <ReactIcon />
+                  <span>React</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <ReactIcon />
+                  <span>React Native</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <a href="https://www.postgresql.org/">
+                    <Image
+                      className="inline"
+                      width={22}
+                      height={22}
+                      src="https://www.postgresql.org/media/img/about/press/elephant.png"
+                      alt="PostgreSQL logo"
+                      unoptimized
+                    />
+                  </a>
+                  <span>Supabase</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <a href="https://www.postgresql.org/">
+                    <PostgreSQLIcon />
+                  </a>
+                  <span>Postgres</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <span>SQL</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <span>Shopify</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <span>Jest</span>
+                </li>
+              </ol>
             </div>
             <div>
               <h4 className="text-2xl">Key Achievements</h4>
-              <ol className="list-disc pt-2 pl-5">{/* Add achievements here */}</ol>
+              <ol className="list-disc pt-2 pl-5">
+                <li>
+                  Collaborated with clients to understand their business requirements and translate
+                  them into functional software solutions.
+                </li>
+                <li>Developed mobile applications using React Native, Supabase, and SQL.</li>
+                <li>
+                  Integrated e‑commerce functionalities into Shopify stores, including payment
+                  gateways and product management.
+                </li>
+                <li>
+                  Implemented database design, data modeling, and data synchronization using
+                  Supabase and Postgres.
+                </li>
+                <li>
+                  Conducted thorough testing and debugging to ensure high‑quality and bug‑free
+                  applications.
+                </li>
+                <li>
+                  Established shared testing patterns across React (web) and React Native codebases,
+                  validating reusable components and business logic with Jest to ensure consistent
+                  behavior across platforms.
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div className="frosted-glass-dark space-y-4 p-5">
+            <div>
+              <h3 className="mb-2 text-2xl leading-tight md:text-3xl lg:text-4xl">
+                Full Stack Developer - Internship
+              </h3>
+              <p>
+                <span className="font-bold text-white">Propel Holdings · Toronto, Ontario</span>
+                &nbsp;
+                <span className="mb-4 text-gray-300">[Jun. 2018 - Sep. 2018]</span>
+              </p>
+            </div>
+
+            <div>
+              <h4 className="mb-0 text-lg md:text-xl">Tech utilized:</h4>
+              <ol className="mt-0 flex flex-wrap">
+                <li className="m-2 flex items-center space-x-1">
+                  <ReactIcon />
+                  <span>React</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <span>Spring Boot</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <span>SQL</span>
+                </li>
+              </ol>
+            </div>
+            <div>
+              <h4 className="text-2xl">Key Achievements</h4>
+              <ol className="list-disc pt-2 pl-5">
+                <li>
+                  Developed web applications for the call center and backend teams using React and
+                  Spring Boot.
+                </li>
+                <li>
+                  Created a web application for call center representatives to search the database
+                  for promo codes and prevent fraud by matching them with users.
+                </li>
+                <li>
+                  Built a web application for the backend team to add and update loan documents in
+                  the SQL database.
+                </li>
+              </ol>
             </div>
           </div>
         </div>
