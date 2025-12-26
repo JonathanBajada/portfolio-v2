@@ -425,10 +425,10 @@ export default function Home() {
             )}
           </div>
         </div>
-        <p className="text-primary-400/75 mt-5 max-w-xl text-center text-sm">
+        {/* <p className="text-primary-400/75 mt-5 max-w-xl text-center text-sm">
           **Some of these project urls are <strong>not production deployments</strong> and may be
           moved, be partially broken, or completely down. Please notify me if you find any issues.**
-        </p>
+        </p> */}
       </section>
       <section
         id="experience"
