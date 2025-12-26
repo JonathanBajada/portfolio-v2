@@ -5,44 +5,22 @@ import MouseShadow from './components/MouseShadow';
 import Navbar from './components/Navbar';
 import ImageCarousel from './components/ImageCarousel';
 import {
-  ExpressIcon,
-  HardhatIcon,
   GithubIcon,
   LinkedinIcon,
   DocxIcon,
   PdfIcon,
   TypeScriptIcon,
-  SolidityIcon,
   PostgreSQLIcon,
   NextjsIcon,
   ReactIcon,
-  NuxtjsIcon,
-  VuejsIcon,
   TailwindcssIcon,
   DatabaseIcon,
-  SmartContractIcon,
   BackendSystemsIcon,
   AwsIcon,
-  VercelIcon,
   GraphQLIcon as _GraphQLIcon,
   TanStackIcon,
 } from './components/icons';
-import pointsAppScreen1 from './assets/points-app-screen-1.png';
-import pointsAppScreen2 from './assets/points-app-screen-2.png';
-import webWalletScreen1 from './assets/web-wallet-screen-1.png';
-import webWalletScreen2 from './assets/web-wallet-screen-2.png';
-import webWalletScreen3 from './assets/web-wallet-screen-3.png';
-import nodeOperatorDashboardScreen1 from './assets/node-operator-dashboard-screen-1.png';
-import nodeOperatorDashboardScreen2 from './assets/node-operator-dashboard-screen-2.png';
-import nodeOperatorDashboardScreen3 from './assets/node-operator-dashboard-screen-3.png';
-import webMessengerScreen1 from './assets/web-messenger-screen-1.png';
-import webMessengerScreen2 from './assets/web-messenger-screen-2.png';
-import webMessengerScreen3 from './assets/web-messenger-screen-3.png';
-import tokenSaleScreen1 from './assets/token-sale-screen-1.png';
-import tokenSaleScreen2 from './assets/token-sale-screen-2.png';
-import tokenDashboardScreen1 from './assets/token-dashboard-screen-1.png';
-import tokenDashboardScreen2 from './assets/token-dashboard-screen-2.png';
-import tokenDashboardScreen3 from './assets/token-dashboard-screen-3.png';
+
 import ngNative1 from './assets/ng-react-native-1.jpg';
 import ngNative2 from './assets/ng-react-native-2.jpg';
 import ngNative3 from './assets/ng-react-native-3.jpg';
@@ -54,12 +32,9 @@ import vendorDashboard2 from './assets/vendor-dashboard-screen-2.png';
 import vendorDashboard3 from './assets/vendor-dashboard-screen-3.png';
 import vendorDashboard4 from './assets/vendor-dashboard-screen-4.png';
 import vendorDashboard5 from './assets/vendor-dashboard-screen-5.png';
-import sumPlusPlusScreen1 from './assets/sum-plus-screen-1.png';
-import sumPlusPlusScreen2 from './assets/sum-plus-screen-2.png';
-import sumPlusPlusScreen3 from './assets/sum-plus-screen-3.png';
-import sumPlusPlusScreen4 from './assets/sum-plus-screen-4.png';
+
 import sumPlus1 from './assets/sum-plus-1.png';
-import sumPlus2 from './assets/sum-plus-2.png';
+// import sumPlus2 from './assets/sum-plus-2.png';
 import sumPlus3 from './assets/sum-plus-3.png';
 import sumPlus4 from './assets/sum-plus-4.png';
 import sumPlus5 from './assets/sum-plus-5.png';
@@ -71,7 +46,6 @@ import { ExternalLink } from 'lucide-react';
 import { StaticImageData } from 'next/image';
 import Image from 'next/image';
 import { JsIcon } from './components/icons/JsIcon';
-import { ContentfulLogo } from './components/icons/ContentfulLogo';
 
 type Project = {
   name: string;
