@@ -698,6 +698,26 @@ export default function Home() {
               </ol>
             </div>
           </div>
+          <div className="frosted-glass-dark space-y-4 p-5">
+            <div>
+              <h3 className="mb-2 text-2xl leading-tight md:text-3xl lg:text-4xl">
+                Contract Software Engineer
+              </h3>
+              <p>
+                <span className="font-bold text-white">Pixel Koi · Remote</span>&nbsp;
+                <span className="mb-4 text-gray-300">[Date Range]</span>
+              </p>
+            </div>
+
+            <div>
+              <h4 className="mb-0 text-lg md:text-xl">Tech utilized:</h4>
+              <ol className="mt-0 flex flex-wrap">{/* Add tech stack items here */}</ol>
+            </div>
+            <div>
+              <h4 className="text-2xl">Key Achievements</h4>
+              <ol className="list-disc pt-2 pl-5">{/* Add achievements here */}</ol>
+            </div>
+          </div>
         </div>
       </section>
     </main>
