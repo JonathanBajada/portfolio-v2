@@ -245,7 +245,7 @@ export default function Home() {
                   <a
                     rel="noopener"
                     className="hover:text-primary-400 flex cursor-pointer items-center space-x-1"
-                    href="https://github.com/burtonium/"
+                    href="https://github.com/JonathanBajada"
                   >
                     <GithubIcon />
                     <span>Github</span>
@@ -255,7 +255,7 @@ export default function Home() {
                   <a
                     rel="noopener"
                     className="hover:text-primary-400 flex cursor-pointer items-center space-x-1"
-                    href="https://www.linkedin.com/in/mathieu-bertin"
+                    href="https://www.linkedin.com/in/jbajada/"
                   >
                     <LinkedinIcon />
                     <span>LinkedIn</span>
@@ -440,11 +440,11 @@ export default function Home() {
           <div className="frosted-glass-dark space-y-4 p-5">
             <div>
               <h3 className="mb-2 text-2xl leading-tight md:text-3xl lg:text-4xl">
-                Full Stack Developer
+                Full Stack Web3 Developer
               </h3>
               <p>
                 <span className="font-bold text-white">Loadpipe · Remote</span>&nbsp;
-                <span className="mb-4 text-gray-300">[Apr 2024 - Dec 2025]</span>
+                <span className="mb-4 text-gray-300">[April 2024 – Dec 2025]</span>
               </p>
             </div>
 
@@ -494,36 +494,43 @@ export default function Home() {
               <h4 className="text-2xl">Key Achievements</h4>
               <ol className="list-disc pt-2 pl-5">
                 <li>
-                  Led frontend architecture and user experience implementation for a crypto
-                  marketplace prototype using Next.js (App Router), MedusaJS, and modern React
-                  ecosystem (TanStack Query, Zustand, ShadCN).
+                  Led development and maintenance of a multi‑vendor e‑commerce marketplace on the
+                  open‑source MedusaJS platform, leveraging Type‑ Script, Node.js, Zustand, TanStack
+                  Query, Chakra UI, and Tailwind CSS.
                 </li>
                 <li>
-                  Partnered directly with UX/UI team to translate business requirements into
-                  technical specifications, conducted design‑feasibility reviews, and provided
-                  implementation feedback that shaped final user flows.
+                  Built and optimized critical pages including Home, Store, and Checkout,
+                  implementing features like dynamic product sliders, category filters,
+                  mobile‑friendly modals, and address forms using Chakra UI and custom
+                  Tailwind‑styled components.
                 </li>
                 <li>
-                  Architected performant storefront with Next.js SSR/SSG, implementing core user
-                  journeys (browse → cart → checkout) with responsive layouts using Tailwind CSS and
-                  component libraries.
+                  Integrated TanStack Query to reduce redundant API requests by approximately 30%
+                  through centralized caching and server‑state management across key application
+                  flows.
                 </li>
                 <li>
-                  Engineered Web3 integration layer using RainbowKit/Wagmi v2, building wallet
-                  authentication flows and crypto payment interfaces for stakeholder demonstrations.
+                  Upgraded RainbowKit and Wagmi libraries to v2, refactored authentication flows to
+                  latest Web3 standards, expanded wallet connections, and conducted end‑to‑end
+                  testing across desktop and mobile devices using the Sepolia Testnet.
                 </li>
                 <li>
-                  Built full‑stack features connecting Next.js frontend to Medusa/PostgreSQL backend
-                  through API routes and service layers, implementing product, order, and user
-                  management systems.
+                  Designed and implemented backend data models and service layers using Node.js and
+                  PostgreSQL, enabling scalable data handling and order management while integrating
+                  seamlessly with frontend components.
                 </li>
                 <li>
-                  Developed comprehensive admin dashboard with ShadCN, enabling vendor management
-                  and order processing workflows during product validation phase.
+                  Built and optimized the Admin Dashboard using ShadCN, including detailed Order
+                  Details and Order Information pages for operational work‑ flows.
                 </li>
                 <li>
-                  Established development standards: implemented Cypress E2E testing, CI/CD
-                  workflows, and code review processes for the full Next.js application stack.
+                  Wrote and maintained end‑to‑end tests using Cypress, validating core user flows
+                  like checkout, wallet authentication, and responsive layout behavior.
+                </li>
+                <li>
+                  Worked within an Agile Scrum framework, contributing to daily stand‑ups, sprint
+                  planning, and code reviews, and partnering closely with the UX/UI team to
+                  translate designs into production‑ready features.
                 </li>
               </ol>
             </div>
@@ -601,6 +608,10 @@ export default function Home() {
                 <li>
                   Enhanced user experience by incorporating smooth animations for transitions and
                   feedback, elevating overall app polish.
+                </li>
+                <li>
+                  Implemented global state management with MobX (stores, actions, computed values),
+                  improving UI consistency across complex user flows and reducing prop drilling.
                 </li>
               </ol>
             </div>
