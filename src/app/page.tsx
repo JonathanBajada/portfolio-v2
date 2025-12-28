@@ -729,26 +729,24 @@ export default function Home() {
               <h4 className="text-2xl">Key Achievements</h4>
               <ol className="list-disc pt-2 pl-5">
                 <li>
-                  Collaborated with clients to understand their business requirements and translate
-                  them into functional software solutions.
-                </li>
-                <li>Developed mobile applications using React Native, Supabase, and SQL.</li>
-                <li>
-                  Integrated e‑commerce functionalities into Shopify stores, including payment
-                  gateways and product management.
+                  Worked directly with clients to gather requirements and translate business needs
+                  into clear technical specifications and implementation plans.
                 </li>
                 <li>
-                  Implemented database design, data modeling, and data synchronization using
-                  Supabase and Postgres.
+                  Designed and implemented reusable UI components and application architecture for a
+                  React Native mobile application, focusing on maintainability and scalability.
                 </li>
                 <li>
-                  Conducted thorough testing and debugging to ensure high‑quality and bug‑free
-                  applications.
+                  Built backend data models and services using Supabase and PostgreSQL, supporting
+                  user data, content management, and application state.
                 </li>
                 <li>
-                  Established shared testing patterns across React (web) and React Native codebases,
-                  validating reusable components and business logic with Jest to ensure consistent
-                  behavior across platforms.
+                  Implemented and customized Shopify storefronts, integrating payment gateways,
+                  product management, and custom frontend components to meet client requirements.
+                </li>
+                <li>
+                  Collaborated on full‑stack system design, advising on frontend–backend boundaries,
+                  data flow, and integration patterns across web and mobile platforms.
                 </li>
               </ol>
             </div>
