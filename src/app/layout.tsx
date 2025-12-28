@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: '%s | Jonathan Bajada - Full Stack Developer',
   },
   description:
-    'Full Stack Developer with 10+ years of experience specializing in web3 and blockchain applications. Expert in React, Node.js, TypeScript, and blockchain technologies. Available for consulting and development projects.',
+    'Full Stack Developer with 4+ years of experience. Expert in React, Node.js, TypeScript, and blockchain technologies. Available for consulting and development projects.',
   keywords: [
     'jonathan bajada',
     'Full Stack Developer',
@@ -50,9 +50,9 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://portfolio.nephelo.io',
     siteName: 'jonathan bajada - Full Stack Developer',
-    title: 'jonathan bajada - Full Stack Developer | Web3 & Blockchain Expert',
+    title: 'jonathan bajada - Full Stack Developer',
     description:
-      'Full Stack Developer with 10+ years of experience specializing in web3 and blockchain applications. Expert in React, Node.js, TypeScript, and blockchain technologies.',
+      'Full Stack Developer with 4+ years of experience. Expert in React, Node.js, TypeScript.',
     // images: [
     //   {
     //     url: '/profile.jpg',
@@ -67,9 +67,9 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@matt_burton',
     creator: '@matt_burton',
-    title: 'jonathan bajada - Full Stack Developer | Web3 & Blockchain Expert',
+    title: 'jonathan bajada - Full Stack Developer',
     description:
-      'Full Stack Developer with 10+ years of experience specializing in web3 and blockchain applications. Expert in React, Node.js, TypeScript, and blockchain technologies.',
+      'Full Stack Developer with 4+ years of experience. Expert in React, Node.js, TypeScript, and blockchain technologies.',
     // images: ['/profile.jpg']
   },
   robots: {
@@ -117,11 +117,10 @@ export default function RootLayout({
               '@type': 'Person',
               name: 'jonathan bajada',
               jobTitle: 'Full Stack Developer',
-              description:
-                'Full Stack Developer with 10+ years of experience specializing in web3 and blockchain applications',
+              description: 'Full Stack Developer with 4+ years of experience',
               url: 'https://portfolio.nephelo.io',
               sameAs: [
-                'https://github.com/burtonium',
+                'https://github.com/jonathanbajada',
                 'https://www.linkedin.com/in/mathieu-bertin',
               ],
               knowsAbout: [
