@@ -376,7 +376,7 @@ export default function Home() {
             }}
             className="w-full max-w-5xl [&_img]:mx-auto [&_img]:max-h-[75vh] [&_img]:w-auto [&_img]:object-contain"
           />
-          <div className="absolute right-6 bottom-12 flex gap-2">
+          {/* <div className="absolute right-6 bottom-12 flex gap-2">
             {selectedProject?.repo && (
               <a
                 href={selectedProject.repo}
@@ -399,7 +399,7 @@ export default function Home() {
                 <ExternalLink className="text-primary-400 h-10 w-10 drop-shadow-lg lg:h-12 lg:w-12" />
               </a>
             )}
-          </div>
+          </div> */}
         </div>
         {/* <p className="text-primary-400/75 mt-5 max-w-xl text-center text-sm">
           **Some of these project urls are <strong>not production deployments</strong> and may be
@@ -481,9 +481,8 @@ export default function Home() {
                   Tailwind‑styled components.
                 </li>
                 <li>
-                  Integrated TanStack Query to reduce redundant API requests by approximately 30%
-                  through centralized caching and server‑state management across key application
-                  flows.
+                  Integrated TanStack Query to reduce redundant API requests through centralized
+                  caching and server‑state management across key application flows.
                 </li>
                 <li>
                   Upgraded RainbowKit and Wagmi libraries to v2, refactored authentication flows to
