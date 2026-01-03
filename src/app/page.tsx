@@ -208,7 +208,7 @@ export default function Home() {
               <h1 className="text-4xl leading-none md:text-5xl xl:text-6xl">Jonathan Bajada</h1>
               <div>
                 <h2 className="text-primary-400 mb-8 text-4xl leading-none md:text-5xl xl:text-6xl">
-                  Full Stack Developer | Security-Focused
+                  Full Stack Developer
                 </h2>
                 <p className="font-title text-lg leading-6 md:text-xl lg:text-2xl">
                   with 4+ years of development experience
@@ -416,7 +416,7 @@ export default function Home() {
           <div className="frosted-glass-dark space-y-4 p-5">
             <div>
               <h3 className="mb-2 text-2xl leading-tight md:text-3xl lg:text-4xl">
-                Full Stack Web3 Developer
+                Full Stack Next.js Developer
               </h3>
               <p>
                 <span className="font-bold text-white">Loadpipe · Remote</span>&nbsp;
@@ -513,7 +513,7 @@ export default function Home() {
           <div className="frosted-glass-dark space-y-4 p-5">
             <div>
               <h3 className="mb-2 text-2xl leading-tight md:text-3xl lg:text-4xl">
-                Full Stack Developer
+                Full Stack React Developer
               </h3>
               <p>
                 <span className="font-bold text-white">Apexacore · Full-time</span>&nbsp;
@@ -751,7 +751,7 @@ export default function Home() {
           <div className="frosted-glass-dark space-y-4 p-5">
             <div>
               <h3 className="mb-2 text-2xl leading-tight md:text-3xl lg:text-4xl">
-                Full Stack Developer - Internship
+                Full Stack React Developer - Internship
               </h3>
               <p>
                 <span className="font-bold text-white">Propel Holdings · Toronto, Ontario</span>
